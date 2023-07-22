@@ -1,4 +1,4 @@
-// Question :1 Write a function and check if given input number is prime or not?
+// Question :1 Given a no, write a fn that returns 1 if the number is a prime else return -1.
 function isPrime(num) {
     let count = 0;
     for (let i = 1; i*i <= num; i++) {
