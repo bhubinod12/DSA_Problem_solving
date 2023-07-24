@@ -57,3 +57,4 @@ function isPropExist(obj, prop, name) {
     return false;
 }
 console.log(lookUpProfile('Kristian', 'likes'));
+console.log('This file is not got added');
