@@ -121,7 +121,7 @@
 // Q3: Given an integer array A containing N distinct integers, you have to find all the leaders in array A. 
 // An element is a leader if it is strictly greater than all the elements to its left side.
 
-//  let A = [2,5,3,4,17,16];
+ let A = [2,5,3,4,17,16];
 //  2 -> leader
 //  5 -> leader
 //  3 -> no
@@ -133,6 +133,7 @@
 // max 2  5 17
 // ans 1  2 3
 // ans = 3
+
 
 // Questions:
 // 4) Say you have an array, A, for which the ith element is the price of a given stock on day i.
@@ -161,6 +162,9 @@
 
 
 // https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+
+// 
+
 
 
 
