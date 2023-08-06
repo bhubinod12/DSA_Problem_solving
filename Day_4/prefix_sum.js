@@ -93,9 +93,20 @@ console.log(preFixSum(arr));*/
     }
     return false;
 } */
-// Q4: Given an array of size N and Q qureies(s & e), for every query return count of even element in the inside range from s & e.
+// Q4: You are given an array A of length N and Q queries given by the 2D array B of size Q×2.
+// Each query consists of two integers B[i][0] and B[i][1].
+// For every query, your task is to find the count of even numbers in the range from A[B[i][0]] to A[B[i][1]].
 //input:
 // A = -3, 6, 2, 4, 5, 2, 8, -9, 3, 1
+
+// Q5: You are given an array A of length N and Q queries given by the 2D array B of size Q*2. Each query consists of two integers B[i][0] and B[i][1].
+// For every query, the task is to calculate the sum of all even indices in the range A[B[i][0]…B[i][1]].
+// input:
+// A = [1, 2, 3, 4, 5]
+// B = [   [0,2] 
+//         [1,4]   ]
+
+
 
 
 
