@@ -53,7 +53,8 @@
 //     return ans;
 // }
 
-// Q2:
+// Q2: Given an array A, find the size of the smallest subarray such that it contains at least one occurrence of the maximum value of the array
+// and at least one occurrence of the minimum value of the array.
 // let arr = [1,2,3,1,3,4,6,4,6,3] -> [3,6]
 
 // subarray
@@ -68,7 +69,7 @@
 //  5 - 2 +1 = 4
 //  (s , e) => e-s+1;
 
-let arr = [1,6,2,3,1,3,4,6,4,6,3];
+// let arr = [1,6,2,3,1,3,4,6,4,6,3];
 // min = 1
 // max = 6
 // [1,6] 
@@ -103,7 +104,8 @@ let arr = [1,6,2,3,1,3,4,6,4,6,3];
 //                 }
 //                 // ans = Math.min(ans,i-lastMaxIndex+1);
 //             }
-//         } if (arr[i] == max) {
+//         } 
+//            if (arr[i] == max) {
 //             lastMaxIndex = i;
 //             if (lastMinIndex >= 0) {
 //                 if (ans > i-lastMinIndex+1) {
@@ -116,6 +118,49 @@ let arr = [1,6,2,3,1,3,4,6,4,6,3];
 //     return ans;
 // }
 // console.log(minLenSubArray(arr));
+// Q3: Given an integer array A containing N distinct integers, you have to find all the leaders in array A. 
+// An element is a leader if it is strictly greater than all the elements to its left side.
+
+//  let A = [2,5,3,4,17,16];
+//  2 -> leader
+//  5 -> leader
+//  3 -> no
+//  17 -> leader
+//  A[i] > (0, i-1)
+// ==
+// 2 5 3 4 17 16
+
+// max 2  5 17
+// ans 1  2 3
+// ans = 3
+
+// Questions:
+// 4) Say you have an array, A, for which the ith element is the price of a given stock on day i.
+// If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
+// Return the maximum possible profit.
+
+// 5) You are given a string S, and you have to find all the amazing substrings of S.
+// An amazing Substring is one that starts with a vowel (a, e, i, o, u, A, E, I, O, U).
+// str = 'ABEC'
+// ans -> 6
+
+// 6) A wire connects N light bulbs.
+// Each bulb has a switch associated with it; however, due to faulty wiring, a switch also changes the state of all the bulbs to the right of the current bulb.
+// Given an initial state of all bulbs, find the minimum number of switches you have to press to turn on all the bulbs.
+// You can press the same switch multiple times.
+// Note: 0 represents the bulb is off and 1 represents the bulb is on.
+
+// 7) You are given an integer array A of size N.
+// You have to perform B operations. In one operation, you can remove either the leftmost or the rightmost element of the array A.
+// Find and return the maximum possible sum of the B elements that were removed after the B operations.
+// NOTE: Suppose B = 3, and array A contains 10 elements, then you can:
+// Remove 3 elements from front and 0 elements from the back, OR
+// Remove 2 elements from front and 1 element from the back, OR
+// Remove 1 element from front and 2 elements from the back, OR
+// Remove 0 elements from front and 3 elements from the back.
+
+
+// https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 
 
 
