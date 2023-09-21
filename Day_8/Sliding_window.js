@@ -78,7 +78,7 @@
 // swap = 2
 // swap = 0
 
-// Q6 Given a matrix(N*M). print it in spiral form.
+// Q6 Given a matrix(N*N). print it in spiral form.
 
 // 1  2  3  4   5
 // 6  7  8  9  10
@@ -113,41 +113,19 @@
 
 
 
+// Question
+// Q7) Given an array A of length N. Also given are integers B and C.
+// Return 1 if there exists a subarray with length B having sum C and 0 otherwise
 
+// Q8) Given an array of integers A and an integer B, find and return the minimum number of swaps required to bring all the numbers less than or equal to B together.
+// Q9) Given an integer A, generate a square matrix filled with elements from 1 to A2 in spiral order and return the generated square matrix.
 
+// Q10) Given an array of size N, find the subarray of size K with the least average.
+// Return the index of the first element of the subarray of size k that has least average.
+// Array indexing starts from 0.
 
+    // Input 1:
+    // A=[3, 7, 90, 20, 10, 50, 40]
+    // B=3
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Ans: 3
