@@ -129,3 +129,71 @@
     // B=3
 
 // Ans: 3
+
+// MinSwap : function(A, B){
+//     let n = A.length;
+//     let sizeOfWindow = 0;
+//     let count = 0;
+//     let ans = 0;
+//     for (let i = 0; i < n; i++) {
+//         if (A[i] <= B) {
+//             sizeOfWindow++
+//         }
+//     }
+//     for (let j = 0; j < sizeOfWindow; j++) {
+//         if (A[j] > B) {
+//             count++;
+//         }
+//     }
+//     ans = count;
+//     let s = 1;
+//     let e = sizeOfWindow;
+//     while (e < n) {
+//         if (A[s-1] > B) {
+//             count--;
+//         }
+//         if (A[e] > B) {
+//             count++
+//         }
+//         if (ans > count) {
+//             ans = count;
+//         }
+//         s++
+//         e++;
+//     }
+//     return ans;
+// }
+// };
+
+// 1  2  3  4   5
+// 6  7  8  9  10
+// 11 12 13 14 15
+// 16 17 18 19 20
+// 21 22 23 24 25
+
+// function getMatrix (A) {
+//     let N = A.length;
+//     let row = 0; let col = 0;
+
+//     while(N > 0) {
+//         for (let k = 1; k < N; k++) {
+//             console.log(A[row][col]);
+//             col++;
+//         }
+//         for (let k = 1; k < N; k++) {
+//             console.log(A[row][col]);
+//             row++;
+//         }
+//         for (let k = 1; k < N; k++) {
+//             console.log(A[row][col]);
+//             col--;
+//         }
+//         for (let k = 1; k < N; k++) {
+//             console.log(A[row][col]);
+//             row--;
+//         }
+//         row++;
+//         col++;
+//         N = N-2;
+//     }
+// }
