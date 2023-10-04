@@ -85,6 +85,54 @@ A = [2, 3, 1, 4, 0, -1, 2, -2, 10, 8];
 // A = [1, 6, 1, 1, 2, 1];
 // N = 6;
 
+// Question:
+// Q4:You are given an array A of length N and Q queries given by the 2D array B of size Q*2. Each query consists of two integers B[i][0] and B[i][1].
+// For every query, the task is to calculate the sum of all even indices in the range A[B[i][0]…B[i][1]].
+
+// First argument A is an array of integers. Second argument B is a 2D array of integers.
+// Input 1:
+// A = [1, 2, 3, 4, 5]
+// B = [   [0,2] 
+//         [1,4]   ]
+
+// Output 1:
+// [4, 8]
+
+// Q4 You are given an array A of length N and Q queries given by the 2D array B of size Q*2. Each query consists of two integers B[i][0] and B[i][1].
+// For every query, the task is to calculate the sum of all odd indices in the range A[B[i][0]…B[i][1]].
+
+// Input 1:
+// A = [1, 2, 3, 4, 5]
+// B = [   [0,2] 
+//         [1,4]   ]
+// Output 1:
+// [2, 6]
+
+// Q5: Given an array, arr[] of size N, the task is to find the count of array indices such that removing an element from these indices makes the sum of even-indexed and odd-indexed array elements equal.
+// Input 1:
+// A=[2, 1, 6, 4]
+
+// Output 1:
+// 1
+
+// Q5: Given an array of size N, find the majority element. The majority element is the element that appears more than floor(n/2) times.
+// You may assume that the array is non-empty and the majority element always exists in the array.
+
+// Input 1:
+// [2, 1, 2]
+
+// Q6: You're given a read-only array of N integers. Find out if any integer occurs more than N/3 times in the array in linear time and constant additional space.
+// If so, return the integer. If not, return -1.
+
+// If there are multiple solutions, return any one.
+
+// Note: Read-only array means that the input array should not be modified in the process of solving the problem
+// Input 1:
+// [1 2 3 1 1]
+
+// Output 1:
+// 1
+
 
 
 
